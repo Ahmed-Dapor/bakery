@@ -1,0 +1,438 @@
+/* global */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.sec-col {
+    background-color: #F8F8F8;
+}
+
+/* global */
+
+/* home start */
+.home {
+    background-image: url(drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.nav-bar {
+   
+   
+}
+
+
+.nav-bar .nav-logo {
+    width: 20%;
+    float: left;
+   
+}
+
+.nav-bar .nav-logo img {
+    width: 100%;
+}
+
+.nav-bar .nav-links {
+    width: 80%;
+    
+    float: left;
+}
+
+.nav-bar .nav-links ul {
+    float: right;
+    padding-top: 15px;
+}
+
+.nav-bar .nav-links ul li {
+    float: left;
+    font-size: 25px;
+    padding: 15px;
+    color: #fff;
+    transition: all .5s;
+}
+
+.nav-bar .nav-links ul li:hover {
+    color: rgb(142, 119, 84);
+    cursor: pointer;
+}
+
+.home-text {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.home-text span,
+p {
+    font-size: 22px;
+
+}
+
+.home-text h1 {
+    font-size: 76px;
+    margin: 10px 0;
+}
+
+.home-text .button1 {
+    color: #fff;
+    background-color: rgb(142, 119, 84);
+    padding: 20px;
+    width: 150px;
+    font-size: 20;
+    border-radius: 5px;
+    border: 1px solid rgb(142, 119, 84);
+    transition: all .5s;
+}
+
+.home-text .button1:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.home-text .button2 {
+    color: #fff;
+    padding: 20px;
+    width: 150px;
+    font-size: 20;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: all .5s;
+}
+
+.home-text .button2:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+/* home end */
+
+/* about start */
+.about {
+
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.about .container {
+    width: 70%;
+    margin: auto;
+}
+
+.about .about-img {
+    width: 35%;
+}
+
+.about .about-img img {
+    width: 100%;
+    float: left;
+}
+
+.about .about-text {
+
+    width: 60%;
+    float: right;
+
+}
+
+.about .about-text h2 {
+    font-size: 35px;
+}
+
+.about .about-text p {
+    line-height: 1.8;
+    font-size: 20px;
+    color: rgb(134, 129, 129);
+}
+
+.about .about-text ul li {
+    margin-block: 10px;
+}
+
+.about .about-text ul li img {
+    width: 50px;
+    border: 1px solid rgba(142, 119, 84, 0.747);
+    border-radius: 50%;
+
+    display: inline-block;
+}
+
+
+.about .about-text ul li p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
+
+/* about end */
+
+
+/* location start */
+.location {
+    background-color: #F8F8F8;
+    margin-top: 100px;
+    overflow: hidden;
+
+}
+
+.location .container {
+    width: 70%;
+    margin: auto;
+}
+
+.location-text {
+
+    width: 60%;
+    float: left;
+
+    padding: 100px 0;
+}
+
+.location-text h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.location-text p {
+    line-height: 1.8;
+    color: rgb(134, 129, 129);
+}
+
+.location-image {
+    width: 35%;
+    float: right;
+    padding: 100px 0;
+}
+
+.location-image img {
+    width: 100%;
+}
+
+/* location end */
+
+/* baking start */
+.baking .container {
+    width: 70%;
+}
+
+.baking .heading {
+
+    text-align: center;
+    margin: 100px 0;
+}
+
+.baking .heading h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.baking .heading p {
+    font-size: 20px;
+}
+
+.baking .inner {
+
+    width: 33.333%;
+
+
+    float: left;
+
+}
+
+.baking .inner .cards {
+
+    margin: 20px;
+}
+
+.baking .inner .cards img {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.baking .inner .cards .card-info {
+    text-align: center;
+}
+
+.baking .inner .cards .card-info span {
+    font-size: 25px;
+
+}
+
+.baking .inner .cards .card-info p {
+    font-size: 20px;
+    padding-top: 15px;
+    line-height: 1.5;
+    opacity: .7;
+}
+
+/* baking end */
+
+
+/* contact start */
+.contact .container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.contact .container .contact-info {
+    padding-block: 100px;
+    width: 45%;
+    float: left;
+    padding-left: 20px;
+}
+
+.contact .container .contact-info h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact .container .contact-info p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    opacity: .7;
+}
+
+.contact .container .contact-info ul li {
+    margin-block: 10px;
+}
+
+.contact .container .contact-info ul li img {
+    width: 50px;
+    border: 1px solid rgba(142, 119, 84, 0.747);
+    border-radius: 50%;
+    background-color: rgb(142,119,84);
+
+    display: inline-block;
+}
+
+.contact .container .contact-info ul li p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+iframe{
+    float: right;
+    padding-block: 100px;
+}
+/* contact end */
+
+/* closing start */
+.closing{
+    background-color: rgb(64,61,56);
+    overflow: hidden;
+    color: #fff;
+}
+.closing .container{
+    width: 70%;
+    margin: auto;
+}
+.closing .container .about-us{
+    width: 20%;
+    float: left;
+    padding: 50px 0;
+}
+.closing .container .about-us h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.closing .container .about-us p{
+    font-size: 15px;
+    opacity: .7;
+    line-height: 1.8;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.closing .container .why{
+    width: 25%;
+    float: left;
+    padding: 50px 0;
+}
+.closing .container .why h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.closing .container .why ul li{
+    font-size: 15px;
+    opacity: .7;
+    padding-block: 10px;
+    
+}
+.closing .container .hours{
+    width: 25%;
+    float: left;
+    padding: 50px 0;
+}
+.closing .container .hours h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.closing .container .hours ul li{
+    font-size: 15px;
+    opacity: .7;
+    padding-block: 10px;
+}
+.closing .container .details{
+    width: 25%;
+    float: left;
+    padding: 50px 0;
+}
+.closing .container .details h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.closing .container .details ul li{
+    margin-block: 10px;
+}
+.closing .container .details ul li p{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.closing .container .details ul li img{
+    display: inline-block;
+    width: 50px;
+}
+
+/* closing end */
+
